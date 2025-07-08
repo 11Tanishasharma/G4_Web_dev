@@ -227,10 +227,73 @@
 // let evenNumbers = numbers.myFilter(num => num % 2 === 0);
 // console.log(evenNumbers); 
 
-let arr1= [1, 2, 3, 4, 5];
-const sum=arr1.reduce(function (acc,curr){
-        acc=acc+curr
-        return acc;
-},0);
+// let arr1= [1, 2, 3, 4, 5];
+// const sum=arr1.reduce(function (acc,curr){
+//         acc=acc+curr
+//         return acc;
+// },0);
 
-console.log(sum);
+// console.log(sum);
+
+// function welcome(welcomemsg,goodbyeMsg){
+//         console.log(welcomemsg+" "+this.name+"is a student of class"+this.group+" "+goodbyeMsg);
+// }
+
+// const stud1={
+//         name:"Tanisha",
+//         group:"g4",
+// }
+
+// const stud2={
+//         name:"Sharma",
+//         group:"g4",
+// }
+
+// call
+// welcome.call(stud1,"gm","bye");
+// welcome.call(stud2,"hello","bye kid");
+
+// bind
+// const s1=welcome.bind(stud1,["gm","bye"]);
+// const s2=welcome.bind(stud2,"hello","bye kid");
+
+// console.log(s1());
+// console.log(s2());
+
+
+// CURRYING
+
+// normal func
+// function sumofthree(a,b,c){
+//         console.log(a+b+c);
+// }
+
+// sumofthree(10,20,30);
+
+// curried func
+// function sumofthree(a){
+//         return function(b){
+//                 return function(c){
+//                         console.log(a+b+c);
+//                 }
+//         }
+// }
+// console.log(sumofthree(20)(30)(40));
+
+// // we use currying because we need outerscope like we cant choose petty without bread without bread patty we cant choose cheese
+// function choosebread(bread){
+//         return function(patty){
+//                 return function(cheese){
+//                         console.log(bread+patty+cheese);
+//                 }
+//         }
+// }
+
+const grandparent=document.getElementById(grandparent);
+const parent=document.getElementById(parent);
+const child=document.getElementById(child);
+
+
+grandparent.addEventListener("click",()=>{
+        
+})
